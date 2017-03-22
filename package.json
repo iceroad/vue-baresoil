@@ -1,6 +1,6 @@
 {
   "name": "vue-baresoil",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue.js plugin to dynamically load BaresoilClient.",
   "main": "dist/vue-baresoil.js",
   "repository": {
@@ -13,7 +13,7 @@
     "plugin"
   ],
   "scripts": {
-    "compile": "./node_modules/.bin/babel --presets es2015 -d dist/ lib/",
+    "compile": "babel --presets es2015 -d dist/ lib/",
     "prepublish": "npm run compile"
   },
   "author": "Mayank Lahiri <mayank@iceroad.io>",
@@ -26,9 +26,5 @@
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "tiny-emitter": "^1.1.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.0",
-    "babel-preset-es2015": "^6.24.0"
   }
 }
